@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/60d25a215b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Sign Up</title>
+    <script src="script.js"></script>
+   
+</head>
+<body>
+    <div class="container-fluid">
+       
+
+
+        <div class="container content " style="margin-top: 50px;">
+            <div class="row">
+                <div class="col-lg-8 col-12 pt-3">
+                    <form id="signupForm" onsubmit="submitted(event);">
+                        <div class="reg-header">
+                            <h2>Register a new account</h2>
+                            <p>Already Signed Up? Click <a href="login.html" class="color-green">Sign In</a> to login your account.</p>
+                        </div>
+                    
+
+                    
+                        <label>First Name</label>
+                        <input id="name" type="text" class="form-control " style="margin-bottom: 20px;" required="">
+
+                        <label>Last Name</label>
+                        <input id="lname" type="text" class="form-control " style="margin-bottom: 20px;" required="">
+
+                        <label>Email Address <span class="color-red">*</span></label>
+                        <input id="email"  type="email" class="form-control " style="margin-bottom: 20px;" required="">
+
+                        <label>Phone no <span class="color-red">*</span></label>
+                        <input id="number"  type="number" class="form-control " style="margin-bottom: 20px;" required="">
+
+                        <label>Photo <span class="color-red">*</span></label>
+                        <input id="photo"  type="file" class="form-control " style="margin-bottom: 20px;" required="">
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label>Password <span class="color-red">*</span></label>
+                                <input id="password"  type="password" class="form-control " style="margin-bottom: 20px;" required="">
+                            </div>
+                            <div class="col-sm-6">
+                                <label>Confirm Password <span class="color-red">*</span></label>
+                                <input type="password" class="form-control " style="margin-bottom: 20px;" required="">
+                            </div>
+                        </div>
+                        <button class="btn btn-success mt-2" type="submit">Register</button>
+           
+
+            <hr>
+
+                        <div class="row">
+                            <div class="col-lg-8 checkbox">
+                                <label><input type="checkbox"  style="margin-right: 5px;">I read <a href="#" class="color-green">Terms and Conditions</a></label>
+                                
+                                
+                                
+                            </div>
+                            <div class="col-lg-4 text-right">
+                                
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4 pt-3 ps-5">
+                    <h4 style="padding-top: 100px;">About US</h4>
+                    <p>Our banking system provides you your:</p>
+                    <ul >
+                        <li>Total credits</li>
+                        <li>Cash INs</li>
+                        <li>Cash OUTs</li>
+                    </ul>
+                    <h4>Why US??</h4>
+                    <p>Our banking system provides you:</p>
+                    <ul style="padding-bottom: 100px;">
+                        <li>Reliabilty</li>
+                        <li>Safety</li>
+                        <li>Only required info</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            
+       
+    </div>
+
+
+
+
+
+</body>
+</html>
